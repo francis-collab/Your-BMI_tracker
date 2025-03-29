@@ -121,7 +121,7 @@ This application uses the **Body Mass Index - BMI Calculator API** from RapidAPI
 
 ## Demo Video
 
-A walkthrough of the application can be found here: **Watch on YouTube** (https://www.youtube.com/watch?v=W64PggQnf7chttps://www.youtube.com/watch?v=W64PggQnf7c)
+A walkthrough of the application can be found here: [Watch on YouTube] (https://youtu.be/492l-HqdZW8?si=dNNUvL-yMjYbX7gT)
 
 ## License
 
