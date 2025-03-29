@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal BMI Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>BMI Tracker</h1>
+</header>
+
+<main>
+    <form id="bmi-form">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" required step="0.01">
+
+        <label for="height">Height (m):</label>
+        <input type="number" id="height" required step="0.01">
+
+        <button type="submit">Calculate BMI</button>
+    </form>
+
+    <div id="bmi-info">
+        <p>BMI: <span id="bmi-result">-</span></p>
+        <p>Classification: <span id="classification">-</span></p>
+        <p>Health Risk: <span id="health-risk">-</span></p>
+    </div>
+
+    <aside>
+        <h3>Health Insights:</h3>
+        <ul>
+            <li><a href="https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html?utm_source=chatgpt.com" target="_blank">Explore more about BMI</a></li>
+            <li><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm?utm_source=chatgpt.com" target="_blank">BMI and Obesity risks</a></li>
+            <li><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/index.htm?utm_source=chatgpt.com" target="_blank">Maintain healthy weight</a></li>
+            <li><a href="https://www.everydayhealth.com/diet-nutrition/bmi/how-you-reduce-your-bmi-science-backed-steps/?utm_source=chatgpt.com" target="_blank">7 tips to lower your BMI</a></li>
+        </ul>
+    </aside>
+</main>
+
+<hr>
+
+<footer>
+    <p>Francis Mutabazi &copy; 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
