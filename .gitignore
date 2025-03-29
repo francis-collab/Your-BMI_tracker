@@ -1,0 +1,14 @@
+# Node.js or backend dependencies
+node_modules/
+package-lock.json
+
+# MacOS system files
+.DS_Store
+
+# Logs and cache
+*.log
+cache/
+
+# Ignore secrets (for API keys)
+.env
+config.json
